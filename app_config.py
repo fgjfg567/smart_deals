@@ -1,6 +1,6 @@
 """إعدادات التطبيق — عدّلها مرة واحدة قبل البناء (انظر README)."""
 # رابط قاعدة Firebase Realtime Database. مثال: https://smart-deals-default-rtdb.firebaseio.com
-FIREBASE_DB_URL = ""
+FIREBASE_DB_URL = "https://smartdeals-73263-default-rtdb.firebaseio.com/"
 
 # معرّف التتبع الافتراضي (Tracking ID) إن لم تضبطه من لوحة التحكم. مثال: smartdeals-21
 DEFAULT_AFFILIATE_TAG = ""
