@@ -486,7 +486,7 @@ def main(page: ft.Page):
                         page.update()
                     elif left <= 0 and shown["timer_key"] != t["end_ts"]:
                         shown["timer_key"] = t["end_ts"]
-                        if local["notify"]:
+                        if local["notify"] and left > -120:
                             alert("انتهى المؤقت ⏰", f"{t['text']}: الكوبون متاح الآن، تحقق من القائمة.")
                         refresh_remote()
                         n = 0
